@@ -34,7 +34,22 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 
 **Procedure**
 
-/* write all the steps invloved */
+Open Quartus Prime and create a new Verilog project.
+
+Write the Verilog code for the SR flip-flop.
+
+Compile the design to check for syntax errors.
+
+Generate the RTL schematic to visualize the flip-flop structure.
+
+Create a testbench to simulate the behavior of the SR flip-flop.
+
+Apply test cases for S and R inputs and observe the transitions in Q based on the characteristic table.
+
+Generate the timing diagram to confirm correct timing behavior.
+
+Validate the simulation results with the expected next state as per the truth table.
+
 
 **PROGRAM**
 
@@ -54,3 +69,6 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 
 
 **RESULTS**
+
+
+The SR flip-flop was successfully implemented in Verilog, and its functionality was validated using the truth table and timing diagrams. The output correctly responds to Set and Reset inputs as expected.
